@@ -1,0 +1,14 @@
+* text=auto
+
+# Source
+*.cpp text eol=lf
+*.hpp text eol=lf
+
+# Build system
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
+
+# Binary
+*.exe binary
+*.dll binary
+*.lib binary

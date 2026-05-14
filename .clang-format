@@ -1,0 +1,40 @@
+# Template & Indent
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+NamespaceIndentation: None
+
+# Access Modifiers
+IndentAccessModifiers: false
+AccessModifierOffset: -4
+EmptyLineBeforeAccessModifier: Never
+EmptyLineAfterAccessModifier: Never
+
+BreakBeforeBraces: Allman
+PenaltyBreakBeforeFirstCallParameter: 1
+AlignConsecutiveDeclarations: true
+AlignArrayOfStructures: Right
+ColumnLimit: 120
+SpacesInAngles: false
+SpaceBeforeParens: ControlStatements
+AllowShortIfStatementsOnASingleLine: true
+AlignConsecutiveAssignments: AcrossEmptyLinesAndComments
+AlignConsecutiveMacros: AcrossEmptyLinesAndComments
+AllowShortCaseExpressionOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AlignConsecutiveShortCaseStatements:
+   Enabled: true
+   AcrossEmptyLines: true
+   AcrossComments: true
+   AlignCaseColons: false
+AlignEscapedNewlines: LeftWithLastLine
+AlignOperands: AlignAfterOperator
+AlignTrailingComments:
+    Kind: Always
+    OverEmptyLines: 0
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Always
+AlignAfterOpenBracket: Align
+BinPackArguments: false
